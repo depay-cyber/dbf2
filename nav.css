@@ -29,6 +29,7 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
+    flex-wrap: wrap;
 
     
 
@@ -37,6 +38,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+
     width: 50%;
     
     list-style: none;
@@ -81,6 +84,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
 
 }
 .div1 img{
@@ -115,6 +120,8 @@
     height: 70vh;
     display: flex;
     justify-content:space-between ;
+    flex-wrap: wrap;
+
     padding: 30px;
     background-color:darkcyan;
     border-radius: 10px;
@@ -140,6 +147,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+
 }
 .textgwa2 p{
     margin: 20px 0;
@@ -177,6 +186,8 @@
     height: 70vh;
     display: flex;
     justify-content:space-between ;
+    flex-wrap: wrap;
+
     padding: 30px;
     background-color:darkcyan;
     border-radius: 10px;
@@ -203,6 +214,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+
 }
 .textgwa3 p{
     margin: 20px 0;
@@ -241,6 +254,8 @@
     height: 70vh;
     display: flex;
     justify-content:space-between ;
+    flex-wrap: wrap;
+
     padding: 30px;
     background-color:darkcyan;
     border-radius: 10px;
@@ -266,6 +281,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+
 
 }
 .textgwa4 h2{
@@ -304,6 +321,8 @@
     height: 70vh;
     display: flex;
     justify-content:space-between ;
+    flex-wrap: wrap;
+
     padding: 30px;
     background-color:darkcyan;
     border-radius: 10px;
@@ -329,6 +348,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+
 
 }
 .textgwa5 h2{
@@ -368,6 +389,8 @@
     height: 70vh;
     display: flex;
     justify-content:space-between ;
+    flex-wrap: wrap;
+
     padding: 30px;
     background-color:darkcyan;
     border-radius: 10px;
@@ -393,6 +416,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+
 
 }
 .textgwa6 h2{
@@ -432,6 +457,8 @@
     height: 70vh;
     display: flex;
     justify-content:space-between ;
+    flex-wrap: wrap;
+
     padding: 30px;
     background-color:darkcyan;
     border-radius: 10px;
@@ -457,6 +484,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+
 
 }
 .textgwa7 h2{
@@ -517,4 +546,128 @@
 
  
     
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    margin-top: 30px;
 
+}
+.logoW{
+    width: 100%;
+    height: 70%;
+    background-color: green;
+}
+.copy{
+    width: 100%;
+    height: 30%;
+    background-color: brown;
+}
+.footerWrapper{
+    /* background-color: red; */
+    width: 90%;
+    height: 100%;
+    margin: auto;
+   
+}
+.logoWrapper{
+    width: 100%;
+    height: 70%;
+    border-bottom: 2px solid gray;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
+
+}
+.copyRit{
+    width: 100%;
+    height: 30%;
+    /* background-color: green; */
+
+}
+.linksWrapper{
+    width: 60%;
+    height: 100%;
+    
+    /* background-color: brown; */
+    position: relative;
+}
+.logoArea{
+    width:40%;
+    height: 100%;
+    
+    /* background-color: aqua; */
+    position: relative;
+    
+    
+}
+.logoArea img{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.linksWrapper ul{
+    list-style: none;
+    position: absolute;
+    left: 20%;
+    top: 30px;
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+    text-decoration: underline;
+
+
+}
+.linksWrapper ul a{
+    font-size: 1rem;
+}
+.lister{
+    width: 100%;
+    height: 90px;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    
+}
+.lister ul{
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+   
+
+
+
+}
+.fa{
+    color: aliceblue;
+}
+.copyRit p{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 30px;
+
+}
+.list2{
+    position: absolute;
+    left: 60%;
+    width: 300px;
+}
+.linksWrapper a{
+    color: aqua;
+}
