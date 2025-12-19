@@ -1,0 +1,520 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.page{
+    width: 100%;
+    height: auto;
+    background-color:aliceblue; 
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    
+}
+.nav{
+    width: 100%;
+    height: auto;
+    background-color:darkcyan;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    
+
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    
+    list-style: none;
+    padding: 10px;
+
+}
+.nav ul li{
+    /* background-color: aqua; */
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: aliceblue;
+
+    
+}
+.nav ul li:hover{
+    transform: ;
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+.wrapper{
+    /* background-color:brown; */
+    width: 100%;
+    height: 40%;
+    margin: 
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.div1{
+    background-color:navy;
+    width: 98%;
+    height:500px ;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+.div1 p{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 100px;
+    bottom: 180px;
+    
+}
+.div1 h1{
+    color: antiquewhite;
+    color: antiquewhite;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left:20px ;
+}
+
+
+
+.wrapper2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content:space-between ;
+    padding: 30px;
+    background-color:darkcyan;
+    border-radius: 10px;
+
+    
+}
+.imagegwa2 ,.textgwa2{
+    /* background-color: gray; */
+    width: 48%;
+    height: 100%;
+    
+    border-radius: 10px;
+
+}
+.imagegwa2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.textgwa2{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.textgwa2 p{
+    margin: 20px 0;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+}
+.textgwa2 h2{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.Apply button{
+    color:white;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: ;
+}
+.Apply button:hover{
+    background-color: green;
+
+
+}
+
+.wrapper3{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content:space-between ;
+    padding: 30px;
+    background-color:darkcyan;
+    border-radius: 10px;
+    margin-top: 40px;
+
+    
+}
+.imagegwa3 ,.textgwa3{
+    /* background-color: gray; */
+    width: 48%;
+    height: 100%;
+    
+    border-radius: 10px;
+
+}
+.imagegwa3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.textgwa3{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.textgwa3 p{
+    margin: 20px 0;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+}
+.textgwa3 h2{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 25px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.button3 button{
+    color:white;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: ;
+    text-transform: capitalize;
+}
+.button3 button:hover{
+    background-color: green;
+
+
+}
+.wrapper4{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content:space-between ;
+    padding: 30px;
+    background-color:darkcyan;
+    border-radius: 10px;
+    margin-top: 40px;
+
+
+}
+.imagegwa4 , .textgwa4{
+     width: 48%;
+    height: 100%;
+    
+    border-radius: 10px;
+
+}
+.imagegwa4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.textgwa4{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.textgwa4 h2{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 30px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.textgwa4 p{
+     margin: 20px 0;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.button4 button{
+    color:white;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: ;
+    text-transform: capitalize;
+
+}
+.button4 button:hover{
+    background-color: green;
+}    
+.wrapper5{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content:space-between ;
+    padding: 30px;
+    background-color:darkcyan;
+    border-radius: 10px;
+    margin-top: 40px;
+
+
+}
+.imagegwa5 , .textgwa5{
+     width: 48%;
+    height: 100%;
+    
+    border-radius: 10px;
+
+}
+.imagegwa5 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.textgwa5{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.textgwa5 h2{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 30px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.textgwa5 p{
+     margin: 20px 0;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.button5 button{
+    color:white;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: ;
+    text-transform: capitalize;
+
+}
+.button5 button:hover{
+    background-color: green;
+}   
+
+.wrapper6{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content:space-between ;
+    padding: 30px;
+    background-color:darkcyan;
+    border-radius: 10px;
+    margin-top: 40px;
+
+
+}
+.imagegwa6 , .textgwa6{
+     width: 48%;
+    height: 100%;
+    
+    border-radius: 10px;
+
+}
+.imagegwa6 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.textgwa6{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.textgwa6 h2{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 30px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.textgwa6 p{
+     margin: 20px 0;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.button6 button{
+    color:white;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: ;
+    text-transform: capitalize;
+
+}
+.button6 button:hover{
+    background-color: green;
+}   
+
+.wrapper7{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content:space-between ;
+    padding: 30px;
+    background-color:darkcyan;
+    border-radius: 10px;
+    margin-top: 40px;
+
+
+}
+.imagegwa7 , .textgwa7{
+     width: 48%;
+    height: 100%;
+    
+    border-radius: 10px;
+
+}
+.imagegwa7 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.textgwa7{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.textgwa7 h2{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 30px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.textgwa7 p{
+     margin: 20px 0;
+    color:antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.button7 button{
+    color:white;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: ;
+    text-transform: capitalize;
+
+}
+.button7 button:hover{
+    background-color: green;
+}   
+
+
+
+    
+    
+
+
+
+.logo{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    right: 1440px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-spacing: 20px;
+    border-color: blue;
+
+}
+
+ 
+    
+
